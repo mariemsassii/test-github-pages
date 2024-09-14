@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    height: 110vh;
+    background-image: url(wall.webp);
+    width: 100%;
+   
+    
+}
+.contairee{
+    position: absolute;
+    top: 50px;
+    left:180px;
+    transform: translate(10%,-3%);
+    width: 600px;
+    height:560px;
+    background-image: url(R.jpeg);
+    border-radius: 20px;
+   
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 1);
+    margin-top: 30px;
+    font-family:cursive;
+}
+form{
+    padding: 0 40px;
+}
+form .box{
+    position: relative;
+    margin-top: 30px;
+    border-bottom: 1px solid  rgb(34, 39, 42);
+}
+input{
+    width: 90%;
+    padding: 20px 50px;
+    height: 40px;
+    font-size: 18px;
+    background-color: 0;
+    border: none;
+    outline: none;
+    size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.video-container {
+    width: 600px;
+    margin: 20px auto;
+    position: relative;
+    border: 2px solid #333;
+}
+
+
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.controls button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #555;
+}

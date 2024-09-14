@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: #0e1b2c;
+    color: #eeebeb;
+    padding: 1rem;
+    text-align: right;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 97,1%;
+    font-size: 40px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   top: 20px;
+  
+   
+
+}
+
+.video-logo {
+    width: 250px;  /* Largeur du logo */
+    height: auto;  /* Ajuste la hauteur automatiquement */
+    position:absolute; 
+    top: 20px;
+    left: 25px;
+    border-radius: 50%;  /* Rend la vidéo circulaire, comme un logo */
+    border: 3px solid #333;  /* Bordure pour mieux définir le logo */
+   overflow: hidden;
+   
+}
+
+
+
+header h1 {
+    margin:;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+   
+    transform: translate(5%,-100%);
+    height: 50px;
+   position:relative;
+   margin: 0%;
+   padding: 0px;
+   
+  
+}
+
+nav ul li {
+    display:inline-block;
+    margin: 0 1rem;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*#hr{
+    text-align: right;
+    margin-left: auto;
+    width: 200px;
+    top: left;
+   
+}*/
+#secA{
+background-image: url(fe.avif);
+   width: 100%;
+    height: 500px;
+    font-size: 30px;
+    color: #bababd;
+    text-align: center;
+    transform: translate(0%,-7%);
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+
+
+#home {
+    height:400px ;
+    width:100%;
+    background-image: url(bbb.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    font-weight:bold;       /* Met le texte en gras */
+    text-align: right;       /* Aligne le texte à droite */
+    margin: 0px;
+    color: rgb(230, 234, 246);
+    font-size:x-large;    
+    
+    
+}
+#forme{
+    text-align: center;
+   
+    width: 70%;
+   position: absolute;
+   transform: translate(-3%,-5%);
+   top: 500px;
+
+}
+
+#about{
+    height:850px ;
+    width:100%; 
+  background-image:url(OIP\ \(2\).jpeg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    color:  hsl(184, 83%, 91%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    size: 30px;
+    transform: translate(0%,-10%);
+} 
+
+
+#mii{
+    float: center;
+    width: 25%;
+
+    width: 100%;
+    size: 100px;
+    color: #eeebeb;
+    text-align: center;
+   
+    
+
+    
+}
+
+#notre{
+    float: left;
+    width: 25%;
+}
+
+#Client{
+    float: left;
+    width: 25%;
+
+}
+#Metier{
+    float: left;
+    width: 33.3%;
+  padding-bottom: 50px;
+
+
+}
+#savoir{
+    float: left;
+    width: 33.3%;
+    padding-bottom: 50px;
+    
+}
+#Compétenses{
+    float: left;
+    width: 33.3%;
+    padding-bottom: 50px;
+
+}
+#secteur{
+    float: left;
+    width: 25%;
+}
+
+
+
+#zz{
+    text-align: center;
+    
+    color: #eaeaf3;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#oui {
+    text-align:center ;
+    align-items: center;
+}
+#non{
+    text-align: right;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#about {
+    text-align: center;
+}
+#con {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f3361;
+   
+}
+.yes{
+    color: rgb(136, 179, 225);
+}
+.yess{
+    color: rgb(101, 152, 246);
+}
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    height: 120vh;
+    background-image: url(wall.webp);
+    width: 100%;
+   
+    
+}
+#contact{
+    transform: translate(0%,-13%);
+    margin: auto;
+    padding: 0%;
+}
+.contairee{
+    position: absolute;
+    top: 50px;
+    left:180px;
+    transform: translate(-3%,-5%);
+    width: 580px;
+    height:665px;
+    background-image: url(R.jpeg);
+    border-radius: 30px;
+   
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 1);
+    margin-top: 30px;
+    font-family:cursive;
+}
+form{
+    padding: 0 40px;
+}
+form .box{
+    position: relative;
+    margin-top: 20px;
+    border-bottom: 1px solid  rgb(34, 39, 42);
+}
+input{
+    width: 70%;
+    padding: 20px 35px;
+    height: 1px;
+    font-size: 18px;
+    background-color: 0;
+    border: none;
+    outline: none;
+    size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.tele{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(30%,-150%);
+    size: 5px;
+    color: #eaeaf3;
+}
+.titr{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a2c9d3;
+}
+
